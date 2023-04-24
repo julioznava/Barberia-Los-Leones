@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barberia Los leones</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet" />
+    
+</head>
+<body>
+    <!-- NAVBAR-->
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <img src="./assets/img/logo1.png" alt="logo" class="logo" />
+                <nav>
+                    <ul>
+                        <li><a href="#">Bienvenidos</a></li>
+                        <li><a href="#img-corte">Servicios</a></li>
+                        <li><a href="#" id="galeria">Galeria</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!--PORTADA-->
+    <div class="img-container">
+        <div class="text-container">
+            <h1 id="texto1">Tu estilo en nuestras manos!</h1>
+            <h2 id="texto2">"somos profesionales en cambiar tu imagen"</h2>
+            <button type="button">Agendar</button id="btn-img">
+        </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <h2 id="servicios">Nuestros servicios</h2>
+ 
+    <!-- MENU SERVICIOS-->
+    <div class="container-cards">
+        <div class="row">
+            <div class="col-1">
+                <img id="img-corte" src="./assets/img/corte-de-pelo.jpg" alt="corte-cabello" />
+                <h2>Corte Cabello</h2>
+                <h3>Servicio de corte profesional</h3>
+                <p>(lavado y peinado)</p>
+                <h4>$10.000 </h4>
+                <button type="button">Comprar</button>
+            </div>
+    
+            <div class="col-1">
+                <img id="img-corte" src="./assets/img/barba-service.jpg" alt="corte-barba" />
+                <h2>Corte de barba</h2>
+                <h3>Rasurado y corte profesional</h3>
+                <p>(Incluye paños calientes, peinado, gel)</p>
+                <h4>$15.000 </h4>
+                <button type="button">Comprar</button>
+            </div>
+
+            <div class="col-1">
+                <img id="img-corte" src="./assets/img/bear-oil.jpg" alt="corte-cabello" />
+                <h2>Servicios VIP</h2>
+                <h3>Corte Cabello y barba VIP</h3>
+                <p>(Incluye los 2 servicios anteriores)</p>
+                <h4>$45.000</h4>
+                <button type="button">Comprar</button id="btn-compra">
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER-->
+    <footer>
+        <div class="container-footer">
+            <h3>Síguenos en nuestras redes sociales.</h3>
+            <br>
+
+            <!-- !!! DESDE QUE HE PUESTO EL NORMALIZE.CSS YA NO VEO ESTOS ICONOS SVG -> NO SE PORQUE!!!! -->
+            <a href="https://www.facebook.com/">
+                <img src="/assets/img/facebook.svg" alt="facebook" id="facebook" />
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="/assets/img/instagram.svg" alt="instagram" id="instagram" />
+            </a>
+            <a href="https://twitter.com/">
+                <img src="/assets/img/twitter.svg" alt="twitter" id="twitter" />
+            </a>
+            <br />
+            <br />
+            <p id="direccion">Av. Los leones #6785, Santiago | Teléfono: 97464738</p>
+            <a  id="correo" href="">barberialosleones@gmail.com</a>
+            <small><p>&copy Realizado por julioznava para Desafío Latam 2023 </p></small>
+
+        </div>
+    </footer>
+</body>
+</html>
+
